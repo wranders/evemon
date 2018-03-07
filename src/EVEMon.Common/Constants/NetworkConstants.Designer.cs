@@ -1141,7 +1141,7 @@ namespace EVEMon.Common.Constants {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://forums.eveonline.com/default.aspx?g=posts&amp;t=483928.
+        ///   Looks up a localized string similar to https://forums.eveonline.com/default.aspx?g=posts&amp;m=6728966.
         /// </summary>
         public static string EVEMonForums {
             get {
@@ -1209,6 +1209,15 @@ namespace EVEMon.Common.Constants {
         public static string GitHubBase {
             get {
                 return ResourceManager.GetString("GitHubBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to pool.ntp.org.
+        /// </summary>
+        public static string GlobalNTPPool {
+            get {
+                return ResourceManager.GetString("GlobalNTPPool", resourceCulture);
             }
         }
         
